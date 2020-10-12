@@ -31,7 +31,8 @@ pipeline {
         }
         steps {
           snDevOpsStep()
-          echo "DevHealthScan only in dev...
+          echo "DevHealthScan only in dev..."
+          error("Invalid target environment")
         }
       }
 

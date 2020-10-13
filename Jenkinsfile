@@ -16,6 +16,7 @@ pipeline {
         steps {
           snDevOpsStep()
           echo "Compiling..."
+          sleep 10
         }
       }
 

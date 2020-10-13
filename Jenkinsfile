@@ -16,7 +16,6 @@ pipeline {
         steps {
           snDevOpsStep()
           echo "Compiling..."
-          sleep 10
         }
       }
 
@@ -33,6 +32,7 @@ pipeline {
         steps {
           snDevOpsStep()
           echo "DevHealthScan only in dev..."
+          sleep 10
         }
       }
 

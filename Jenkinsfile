@@ -32,7 +32,7 @@ pipeline {
         steps {
           snDevOpsStep()
           echo "DevHealthScan only in dev..."
-          sleep 10
+          sleep 60
           //error("Invalid target environment")
         }
       }

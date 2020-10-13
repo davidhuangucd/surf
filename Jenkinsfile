@@ -75,7 +75,7 @@ pipeline {
         }
       }
 
-      This is a top level stage.  When you setup your pipeline on the SN instance the stage name 'QAATF' here needs to match the Orchestration stage field on the Steps record. you can find the Orchestration stage field by going to the SN instance, Devops-> App & Pipelines -> Apps, open your app, it's under the Steps related list.
+      // This is a top level stage.  When you setup your pipeline on the SN instance the stage name 'QAATF' here needs to match the Orchestration stage field on the Steps record. you can find the Orchestration stage field by going to the SN instance, Devops-> App & Pipelines -> Apps, open your app, it's under the Steps related list.
       stage('QAATF') {
         when {
           branch 'qa'
@@ -136,5 +136,4 @@ pipeline {
         }
       }
     }
-  }
 }
